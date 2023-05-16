@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-button {
+    @apply border w-40 rounded-lg border-red-800 hover:bg-red-800 hover:text-white px-3 py-2 font-bold uppercase transition duration-150 no-underline text-center text-black
+}
+
+.survey-button {
+    @apply rounded-lg border border-blue-500 w-28 p-2
+}
